@@ -1,8 +1,9 @@
 # SQL JavaFX
 Application written in Java to send SQL requests to a database.   
 Implements a [JavaFX](https://openjfx.io/) graphical interface.  
-The database can be setup with the included SQL file.   
 Uses [JPA (Jakarta Persistence)](https://www.jetbrains.com/help/idea/jakarta-persistence-jpa.html) to interpret the SQL tables as Java classes.  
+The database can be setup with the included SQL file.   
+Learn all about the [endless requests](https://docs.jboss.org/hibernate/core/3.3/reference/en/html/queryhql.html) you can make to the database with JPA.  
 This project was made with [Martin Medina](https://github.com/medinammartin3) for the IFT2935 UdeM course.  
 Here is a [Presentation Video](https://www.youtube.com/watch?v=5-kplptDosA) of the project.
 
