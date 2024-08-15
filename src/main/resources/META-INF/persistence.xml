@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+  <persistence-unit name="default">
+    <class>projet.projetift2935.Arbitre</class>
+    <class>projet.projetift2935.But</class>
+    <class>projet.projetift2935.Equipe</class>
+    <class>projet.projetift2935.Gere</class>
+    <class>projet.projetift2935.Joueur</class>
+    <class>projet.projetift2935.Match</class>
+    <class>projet.projetift2935.MembreStaffTechnique</class>
+    <class>projet.projetift2935.Participe</class>
+    <class>projet.projetift2935.Sanction</class>
+    <class>projet.projetift2935.Stade</class>
+    <class>projet.projetift2935.NumeroJoueur</class>
+    <class>projet.projetift2935.Marqueur</class>
+    <class>projet.projetift2935.Passeur</class>
+    <properties>
+      <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+    </properties>
+  </persistence-unit>
+</persistence>
